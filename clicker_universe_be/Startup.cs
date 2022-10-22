@@ -54,7 +54,7 @@ namespace clicker_universe_be
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, clicker_universe_prototypeContext context)
         {
-            createTestUser(context);
+            //createTestUser(context);
 
             if (env.IsDevelopment())
             {
