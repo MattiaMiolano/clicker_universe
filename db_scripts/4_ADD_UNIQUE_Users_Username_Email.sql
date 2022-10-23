@@ -1,0 +1,4 @@
+ALTER TABLE Users
+ADD UNIQUE (Username); 
+ALTER TABLE Users
+ADD UNIQUE (Email); 
